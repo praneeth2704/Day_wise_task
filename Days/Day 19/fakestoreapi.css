@@ -1,0 +1,102 @@
+/* .card1{
+    background-image: url("https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    background-position: center top;
+    width: 22%;
+    height: 700px;
+   background-color: red;
+
+    position: relative;
+}
+span{
+    position: absolute;
+    top: 29%;
+    left: 4.5%;
+    width: 15%;
+    height: 300px;
+    color: black;
+}
+.des{
+    width: 21%;
+    position: absolute;
+    top:35%;
+    left: 1%;
+}
+.heading{
+    width: 10%;
+    position: absolute;
+    left:1%;
+    top:33%;
+} */
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    
+    padding: 10px;
+    border-radius: 20px;
+   
+}
+a:hover{
+    background-color: hsl(0, 1%, 50%);
+    transition: ease 1s;
+}
+
+.navbar a:first-child{
+    margin-right: 50%;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+    color: white;
+    letter-spacing: 2px;
+}
+.panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 4px;
+    margin-top: 10px;
+}
+.card1{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    
+}
+.card1:hover{
+    box-shadow: 5px 5px 10px black;
+    transition: ease-in-out 1s;
+    
+}
+
+.card1 img{
+    
+    width: 200px;
+    height: 200px;
+}
+.card1 img:hover{
+    transform:rotateY(180deg);
+    transition: ease-in-out 1s;
+}
+.card1 button{
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 70%;
+    background-color: black;
+    color: white;
+
+}
+.card1 button:hover{
+    transform: translate(140%);
+    transition: ease-in-out 1s;
+    background-color: red;
+}

@@ -1,10 +1,52 @@
-
-
+body{
+    font-family:  Verdana, sans-serif;
+}
 .heading{
-    background-color: black;
-    width: auto;
+    
+    width: 98%;
+    background-color: white;
     height: 40px;
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    
+}
+span{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 3px;
+    font-family:  Verdana, sans-serif;
+    color: black;
+}
+.first_heading{
+    width: 70%;
+}
+.overlay{
+    display: flex;
+    font-family:  Verdana, sans-serif;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 2rem;
+    color: white ;
+}
+
+.text{
+    margin-left: 10%;
+}
+
+.overlay b{
+    background-color: hsl(0, 3%, 20%);
+    /* mix-blend-mode: multiply; */
+    padding: 15px;
+    font-weight: 700;
+    width: 30px;
+}
+.projects_bar{
+    padding: 25px;
 }
