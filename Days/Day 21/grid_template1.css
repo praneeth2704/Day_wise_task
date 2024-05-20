@@ -1,0 +1,62 @@
+.grid-container{
+    
+    display: grid;
+    justify-content: center;
+    width: 800px;
+    grid-template-columns:200px 200px 200px; 
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    
+
+}
+.grid-container:hover{
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.grid-container div{
+    border: 2px solid black;
+}
+.grid-container .a{
+    grid-column: 1/4;
+    text-align: center;
+    padding: 30px;
+}
+.grid-container .b{
+    grid-column: 1/4;
+    text-align: center;
+    padding: 30px;
+}
+.grid-container .c{
+    grid-row: 3/5;
+    grid-column: 1/2;
+    padding: 90px;
+    
+}
+.grid-container .d{
+    grid-row: 3/5;
+    grid-column: 2/4;
+    padding: 90px;
+    text-align: center;
+
+}
+.grid-container .e{
+    grid-column: 1/4;
+    text-align: center;
+    padding: 30px;
+    
+}
+.grid-container .a:hover{
+    background-color: yellow;
+}
+.grid-container .b:hover{
+    background-color: blue;
+}
+.grid-container .c:hover{
+    background-color: rebeccapurple;
+}
+.grid-container .d:hover{
+    background-color: violet;
+}
+.grid-container .e:hover{
+    background-color: peachpuff;
+}
